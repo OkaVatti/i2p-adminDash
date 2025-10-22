@@ -1,0 +1,7 @@
+:root {
+  --bg: #020617;
+  --fg: #cbe7ff;
+  --accent: #8b5cf6;
+}
+body { background: radial-gradient(ellipse at top right, #071030 0%, var(--bg) 60%); color: var(--fg); }
+.header { border-bottom: 1px solid rgba(255,255,255,0.04); }

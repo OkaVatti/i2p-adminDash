@@ -1,0 +1,6 @@
+:root {
+  --bg: #f4f4f6;
+  --fg: #0f172a;
+  --accent: #b91c1c;
+}
+body { background: linear-gradient(180deg,#fff,#f4f4f6); color: var(--fg); }
