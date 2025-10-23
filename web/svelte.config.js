@@ -13,7 +13,7 @@ const config = {
       fallback: null
     }),
     // keep older setting if you want to disable strict origin CSRF checks
-    csrf: { checkOrigin: false }
+    csrf: { trustedOrigins: ["0.0.0.0"] }
     // NOTE: do NOT add a `vite` property here — Vite config goes in vite.config.ts
   }
 };

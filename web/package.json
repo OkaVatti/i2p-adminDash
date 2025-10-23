@@ -27,6 +27,6 @@
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.15",
 		"tailwindcss": "^4.1.15",
-		"js-sha3": "^0.9.3"
+		"@noble/hashes": "^2.0.1"
 	}
 }

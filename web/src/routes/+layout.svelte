@@ -13,15 +13,18 @@
     Platinum: '/themes/platinum.css'
   };
 
-  const applyTheme = (t) => {
+  const applyTheme = (/** @type {string} */ t) => {
+    // @ts-ignore
     const href = themeMap[t] || null;
     // remove existing theme link
     let el = document.getElementById('i2p-theme');
     if (el) el.remove();
     if (href) {
       el = document.createElement('link');
+      // @ts-ignore
       el.rel = 'stylesheet';
       el.id = 'i2p-theme';
+      // @ts-ignore
       el.href = href;
       document.head.appendChild(el);
       document.documentElement.classList.remove('oled', 'midnight');
